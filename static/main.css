@@ -1,0 +1,159 @@
+body {
+	background-color: #fsfsfs;
+	text-align: center;
+}
+.container {
+	background: #fff;
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.col-40 {
+	width: 40%;
+}
+.col-60 {
+	width: 60%;
+}
+.btn {
+	background-color: #2C3E50;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+.btn:hover {
+	background-color: #9B59B6;
+}
+header {
+	background-color: #2ECC71;
+	color: #fff;
+	padding-bottom: 15px;
+}
+header h1 {
+	font-size: 50px;
+	margin: 0px;
+	background-color: #9B59B6;
+	display: inline-block;
+	padding: 5px 20px;
+	
+}
+header h4 {
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	display: inline-block;
+	background-color: #2C3E50;
+	padding: 5px 25px;
+}
+header img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+/* about */
+#about {
+	background-color: #1ABC9C;
+	padding: 0px 55px 15px;
+}
+#about p {
+	color: #fff;
+}
+#about h2 {
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	display: inline-block;
+	background-color: #2C3E50;
+	padding: 5px 25px;
+	color: #fff;
+}
+/* gallery*/
+#gallery {
+	background-color: #9B59B6;
+	padding: 0px 60px 15px;
+}
+#gallery h2 {
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	display: inline-block;
+	background-color: #2C3E50;
+	padding: 5px 25px;
+	color: #fff;
+}
+#gallery ul {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#gallery ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px;
+}
+#gallery ul li:hover {
+	background-color: #8E44AD;
+}
+#gallery img {
+	width: 210px;
+	height: 210px;
+}
+/* contact */
+#contact {
+	background-color: #E74C3C;
+	padding: 0px 80px 15px;
+}
+#contact p {
+	color: #fff;
+}
+#contact h2 {
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	display: inline-block;
+	background-color: #2C3E50;
+	padding: 5px 25px;
+	color: #fff;
+}
+#contact img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	margin-top: 50px;
+	margin-bottom: 10px;
+
+}
+#contact input, #contact textarea{
+	padding: 15px;
+	border-radius: 5px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#social_link {
+	background-color: #1ABC9C;
+}
+footer {
+	background-color: #34495E;
+	padding: 15px;
+	color: #fff;
+}
+footer p {
+	padding: 0px;
+	margin: 0px;
+}

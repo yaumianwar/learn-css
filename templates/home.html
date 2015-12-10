@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>LEARN WEB DESIGN</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body id="page-top">
+	<div class="container">
+		<header>
+			<h1>BugisDev</h1>
+			<br>
+			<h4>Web Designer</h4>
+			<br>
+			<img src="{{ url_for('static', filename='foto.jpg') }}">
+		</header>
+		<section id="about">
+			<h2>About Me </h2>
+			<p>I'm a Web Designer. I'm using sublime_text to code. Blabla</p>
+		</section>
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<ul>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+				<li><a href=""><img src="{{ url_for('static', filename='foto.jpg') }}"></a></li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2><br>
+			<div class="left col-40 text-center">
+				<img src="{{ url_for('static', filename='foto.jpg') }}" width="200px" height="200px">
+				<p>Bee this cool person</p>
+			</div>
+			<div class="right col-60 text-left">
+				<form>
+					<input type="text" name="name" placeholder="Your Name . . .">
+					<input type="email" name="mail" placeholder="Your E-Mail . . .">
+					<textarea name="msg" placeholder="Say Something . . ."></textarea>
+					<button type="submit" class="btn">Send</button>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section id="social_link">
+			<!-- later -->
+		</section>
+		<footer>
+			<a href="#page-top" class="right">Top</a>
+			<p>Copyright &copy; 2015</p>
+		</footer>
+	</div>
+</body>
+</html>  
